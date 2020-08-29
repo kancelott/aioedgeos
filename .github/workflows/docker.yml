@@ -5,6 +5,9 @@ on:
     branches: master
     tags:
       - '*'
+  create:
+    tags:
+      - '*'
 jobs:
   buildx:
     runs-on: ubuntu-latest
